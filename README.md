@@ -179,3 +179,5 @@ When everything is done and uploaded we can review everything on the GitHub repo
 We can see our latest commit message on top. And if we browse to the `index.html` file we can see its content.
 
 ## Publishing the result on Netlify
+
+TODO: Still need to figure out on how to get this working with GitHub classroom
