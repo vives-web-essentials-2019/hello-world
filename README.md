@@ -180,4 +180,4 @@ We can see our latest commit message on top. And if we browse to the `index.html
 
 ## Publishing the result on Netlify
 
-TODO: Still need to figure out on how to get this working with GitHub classroom
+TODO: needs to be documented yet
