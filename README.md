@@ -5,9 +5,9 @@ Ok. Lets create our very first HTML document and get everything up and running.
 
 ## minimal Hello World document
 
-First we need to create an `index.html` document inside the `exercise-01` directory. You can do this by right-clicking the directory in the explorer window.
+First we need to create an `index.html` document inside this projects directory. You can do this by right-clicking the directory in the explorer window.
 
-In this document we need to place the following code: 
+In this document we need to place the following code:
 
 ```html
 <!DOCTYPE html>
@@ -88,7 +88,9 @@ php -S localhost:80
 
 Make sure to use the uppercase `-S` or the command will not work.
 
-This command will tel PHP to start a *server* (`-S`) that listens to localhost on port 80. Don't panic if you don't understand all of this. This will get clear following this course. For now just remember to type this command to start a server.
+This command will tel PHP to start a *server* (`-S`) that listens to localhost on port `80`. Don't panic if you don't understand all of this. This will get clear following this course. For now just remember to type this command to start a server.
+
+Any other port can be used (1024 and up). For example, when developing port `3000` or port `8080` can be used as well.
 
 #### HINT: Localhost?
 
@@ -102,12 +104,11 @@ This command will tel PHP to start a *server* (`-S`) that listens to localhost o
 
 > Another way of telling your browser to use the local machine is by using the ip address `127.0.0.1`. `127.0.0.1` and `localhost` are synonyms so you can choose what ever you are happy with. The result is exactly the same.
 
-
 Ok, now that our HTTP server is up and running lets reload the webpage in Chrome by pressing the `F5` key.
 
 ## 404 object not found
 
-Ok, this is still not our webpage. 
+Ok, this is still not our webpage.
 
 ![object not found](img/404-not-found.png)
 
@@ -176,6 +177,5 @@ Click on the `...` button and choose `push`. Visual Studio Code will now push th
 When everything is done and uploaded we can review everything on the GitHub repository webpage.
 
 We can see our latest commit message on top. And if we browse to the `index.html` file we can see its content.
-
 
 ## Publishing the result on Netlify
